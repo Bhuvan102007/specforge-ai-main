@@ -1,0 +1,15 @@
+SpecForge submission package
+===========================
+
+Generated artifacts:
+- outputs/specforge_output.json
+- outputs/spec.html
+
+These files are prepared for the supplied SAMPLE course kit. Before submission, run:
+  npm install
+  npm run check
+  npm run check-template
+  npm test
+  npm run build
+
+Important: a full score cannot be guaranteed without the live competition validator.

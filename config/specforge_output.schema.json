@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"SpecForge output",
+  "type":"object",
+  "required":["course","courseOutcomes","units","mapping","validation","template","generatedAt"],
+  "properties":{
+    "course":{"type":"object","required":["code","title"],"properties":{"code":{"type":"string"},"title":{"type":"string"},"type":{"type":"string"},"credits":{"type":"object"},"faculty":{"type":"string"},"summary":{"type":"string"}}},
+    "courseOutcomes":{"type":"array","items":{"type":"object","required":["id","text"],"properties":{"id":{"type":"string"},"text":{"type":"string"},"bloomLevel":{"type":"string"}}}},
+    "units":{"type":"array","items":{"type":"object","required":["title","hours","topics"],"properties":{"title":{"type":"string"},"hours":{"type":"number"},"topics":{"type":"array","items":{"type":"string"}}}}},
+    "mapping":{"type":"array"},
+    "validation":{"type":"array"},
+    "template":{"type":"string"},
+    "generatedAt":{"type":"string"}
+  }
+}

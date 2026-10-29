@@ -1,0 +1,20 @@
+{
+  "po": [
+    {"id":"PO1","name":"Engineering knowledge","definition":"Apply mathematics, science, engineering fundamentals and domain knowledge."},
+    {"id":"PO2","name":"Problem analysis","definition":"Identify, formulate, review research literature and analyse complex engineering problems."},
+    {"id":"PO3","name":"Design/development of solutions","definition":"Design solutions for complex engineering problems and design system components."},
+    {"id":"PO4","name":"Conduct investigations","definition":"Use research-based knowledge and methods including experiment design and data analysis."},
+    {"id":"PO5","name":"Modern tool usage","definition":"Create, select and apply appropriate techniques, resources and modern engineering tools."},
+    {"id":"PO6","name":"The engineer and society","definition":"Apply contextual knowledge to assess societal, health, safety, legal and cultural issues."},
+    {"id":"PO7","name":"Environment and sustainability","definition":"Understand the impact of engineering solutions in societal and environmental contexts."},
+    {"id":"PO8","name":"Ethics","definition":"Apply ethical principles and commit to professional ethics and responsibilities."},
+    {"id":"PO9","name":"Individual and team work","definition":"Function effectively as an individual and as a member or leader in diverse teams."},
+    {"id":"PO10","name":"Communication","definition":"Communicate effectively on complex engineering activities."},
+    {"id":"PO11","name":"Project management and finance","definition":"Demonstrate knowledge and understanding of engineering and management principles."},
+    {"id":"PO12","name":"Life-long learning","definition":"Recognize the need for and engage in independent and life-long learning."}
+  ],
+  "pso": [
+    {"id":"PSO1","name":"Domain application","definition":"Apply domain-specific concepts and tools to solve discipline problems."},
+    {"id":"PSO2","name":"Professional practice","definition":"Develop solutions that reflect professional practice and current technologies."}
+  ]
+}
